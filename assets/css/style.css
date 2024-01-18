@@ -1,5 +1,23 @@
 header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    padding: 2%;
+}
+/* ConsultUs Logo */
+#logo {
+    width: 30%;
+    height: 50%;
+}
+
+/* Nav Bar Styling */
+.nav-link {
+    font-size: 1vw;
+}
+
+.nav-link:hover {
+    color: white;
+    background-color: #DB5800;
+}
+
+.active {
+    background-color: #DB5800;
+    color: white;
 }
