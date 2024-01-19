@@ -1,23 +1,69 @@
 header {
-    padding: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 /* ConsultUs Logo */
 #logo {
-    width: 30%;
-    height: 50%;
+  width: 30%;
+  height: 50%;
 }
 
 /* Nav Bar Styling */
-.nav-link {
-    font-size: 1vw;
+.nav-item {
+  font-size: 1em;
 }
 
 .nav-link:hover {
-    color: white;
-    background-color: #DB5800;
+  color: white;
+  background-color: #db5800;
+  border-radius: 15px;
 }
 
-.active {
-    background-color: #DB5800;
-    color: white;
+.nav-item > .active {
+  background-color: #db5800;
+  color: white !important;
+  border-radius: 15px;
 }
+
+/* Carousel */
+#carouselExampleIndicators {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+  max-width: 75%;
+}
+
+.carousel-caption {
+    color: white;
+  -webkit-text-stroke-width: 0.55px;
+  -webkit-text-stroke-color: #db5800;
+  text-shadow:
+       2px 2px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+  
+}
+
+/* .carousel-caption {
+  position: relative;
+}
+
+.carousel-caption::before {
+   Highlight color 
+  background-color: #db5800;
+
+  content: "";
+  position: absolute;
+  width: calc(100% + 4px);
+  height: 100%;
+  left: -2px;
+  bottom: 0;
+  z-index: -1;
+  transform: rotate(-2deg);
+  transform-origin: bottom;
+}
+ */
