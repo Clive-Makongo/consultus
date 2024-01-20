@@ -63,10 +63,6 @@ header {
   border-radius: 40%;
 }
 
-#carouselExampleIndicators .carousel-inner .carousel-item img {
-  
-}
-
 .carousel-caption {
   display: flex;
   flex-direction: column;
@@ -90,7 +86,13 @@ header {
 .carousel-control-prev, .carousel-control-next{
   z-index: 3;
   margin: 0;
+  align-items: end;
 }
+
+.carousel-indicators {
+    bottom: -60px; 
+}
+
 
 /* .carousel-caption {
   position: relative;
