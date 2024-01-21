@@ -27,6 +27,7 @@ header {
   background-color: rgb(255, 255, 255);
   margin-bottom: 2%;
 }
+
 /* ConsultUs Logo */
 #logo img {
   padding-top: 2%;
@@ -36,7 +37,7 @@ header {
 /* Nav Bar Styling */
 .nav-item {
   font-size: 1em;
-  color: white; 
+  color: white;
 }
 
 .nav-link:hover {
@@ -45,48 +46,47 @@ header {
   border-radius: 15px;
 }
 
-.nav-item > .active {
+.nav-item>.active {
   background-color: #db5800;
   color: white !important;
   border-radius: 15px;
 }
 
 /* Content */
-.work {
-  margin-right: 2%;
-}
-.page-pic {
-  max-width: 100%;
+.page-item {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin-bottom: 20px;
 }
 
 .page-text {
-  max-width: 50%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: black;
+  padding: 20px;
+  height: 100%;
 }
 
-
-.pic {
-  display: flex;
-  margin: 0%;
-  align-items: center;
-}
 .page-text h3 {
-  background-color: whitesmoke;
-  padding: 2%;
+  padding-left: 2%;
   display: flex;
   margin-bottom: 0%;
   flex-direction: column;
   justify-content: center;
   border-top: black solid 0.2em;
   border-bottom: black solid 0.2em;
+
 }
+
 .page-text p {
-  background-color: whitesmoke;
+  /* background-color: whitesmoke; */
   padding: 5%;
   display: flex;
   margin-bottom: 2%;
   flex-direction: column;
   justify-content: center;
-   border-bottom: black solid 0.2em;
 }
 
 /* Footer */
