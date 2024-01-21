@@ -51,58 +51,51 @@ header {
   border-radius: 15px;
 }
 
-/* Carousel */
-.carousel {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  margin: 0px auto;
+/* Content */
+.work {
+  margin-right: 2%;
+}
+.page-pic {
+  max-width: 100%;
+}
+
+.page-text {
   max-width: 50%;
-  max-height: 10%;
-  border-radius: 40%;
 }
 
-.carousel-caption {
+
+.pic {
   display: flex;
-  flex-direction: column;
-  color: white;
-  -webkit-text-stroke-width: 0.55px;
-  -webkit-text-stroke-color: #db5800;
-  text-shadow: 2px 2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
-    -1px 1px 0 #000, 1px 1px 0 #000;
-  color: white;
-  font-weight: bold;
-  position: absolute;
-  top: -30%;
-  left: 25%;
-  transform: translate(-19%, 50%);
-  z-index: 2;
-  width: 80%;
-  padding: 2px;
-  text-align: center;
-}
-
-.carousel-control-prev, .carousel-control-next{
-  z-index: 3;
-  margin: 0;
+  margin: 0%;
   align-items: center;
 }
-
-.carousel-indicators {
-    bottom: -0px; 
+.page-text h3 {
+  background-color: whitesmoke;
+  padding: 2%;
+  display: flex;
+  margin-bottom: 0%;
+  flex-direction: column;
+  justify-content: center;
+  border-top: black solid 0.2em;
+  border-bottom: black solid 0.2em;
 }
-
-@media only screen and (max-width: 767px) {
-  .carousel {
-    max-width: 100%;
-  }
+.page-text p {
+  background-color: whitesmoke;
+  padding: 5%;
+  display: flex;
+  margin-bottom: 2%;
+  flex-direction: column;
+  justify-content: center;
+   border-bottom: black solid 0.2em;
 }
 
 /* Footer */
 footer {
+  display: block;
+  width: 100%;
   background-color: white;
   margin-top: 2%;
+  bottom: 0px;
 }
 
 /* .carousel-caption {
