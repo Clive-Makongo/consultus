@@ -103,14 +103,6 @@ h5 {
 
 }
 
-/* Footer */
-footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: rgba(255, 255, 255, 0.8);
-}
-
 /* EXPERIENCE */
 
 /* PROJECTS */
@@ -123,3 +115,30 @@ footer {
 /* CLIMATE CHANGE */
 
 /* CONTACT US */
+
+/* Copyright */
+#copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(255, 255, 255, 1);
+  padding: 2%;
+}
+
+
+
+#footer-logo img {
+    max-width: 100%;
+      /* Ensure the logo doesn't exceed the width of the header */
+      height: auto;
+      /* Maintain the aspect ratio */
+      padding-left: 2%;
+}
