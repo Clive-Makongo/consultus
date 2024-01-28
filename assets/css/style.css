@@ -133,12 +133,40 @@ footer {
   padding: 2%;
 }
 
-
-
 #footer-logo img {
-    max-width: 100%;
+    max-width: 75%;
       /* Ensure the logo doesn't exceed the width of the header */
       height: auto;
       /* Maintain the aspect ratio */
       padding-left: 2%;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: #db5800;
+}
+
+.footer-menu {
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+}
+
+.footer-contact {
+  justify-content: space-between;
+}
+
+.footer-contact p {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: left;
+  margin-top: 5%;
 }
