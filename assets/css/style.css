@@ -59,8 +59,13 @@ header {
   border-radius: 15px;
 }
 
+/* Carousel */
+.carousel-item{
+  height: 90%;
+}
+
 /* Content */
-.title > h4 {
+.title>h4 {
   font-size: 1em;
   background: rgba(255, 255, 255, 0.8);
   line-height: normal;
@@ -134,11 +139,11 @@ footer {
 }
 
 #footer-logo img {
-    max-width: 75%;
-      /* Ensure the logo doesn't exceed the width of the header */
-      height: auto;
-      /* Maintain the aspect ratio */
-      padding-left: 2%;
+  max-width: 75%;
+  /* Ensure the logo doesn't exceed the width of the header */
+  height: auto;
+  /* Maintain the aspect ratio */
+  padding-left: 2%;
 }
 
 a:link {
