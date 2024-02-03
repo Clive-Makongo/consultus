@@ -1,3 +1,14 @@
+.construction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #db5800;
+  color: white;
+  font-size: 5em;
+
+}
+
 /* BG Image */
 .bg-image {
   position: fixed;
@@ -86,6 +97,10 @@ header {
   padding: 1%;
 }
 
+.title {
+  border-bottom: 0.2em black solid;
+}
+
 .content {
   display: flex;
   justify-content: center;
@@ -129,7 +144,12 @@ h5 {
   background: rgba(255, 255, 255, 0.8);
 }
 
-/* CLIMATE CHANGE */
+/* ABOUT US */
+.about-content {
+  padding: 2%;
+  margin: 2%;
+  background: rgba(255, 255, 255, 0.8);
+}
 
 /* CONTACT US */
 
