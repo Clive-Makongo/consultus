@@ -78,20 +78,69 @@ header {
 }
 
 /* Carousel */
+
+/* Buttons */
+.carousel-control-prev, .carousel-control-next {
+  width: 5%;
+  height: 10%;
+  opacity: 0.5;
+  background: #db5800;
+  border: none;
+  color: #db5800;
+  font-size: 2em;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1%;
+}
+
 .carousel-item img {
   height: 90%;
   z-index: -11;
 }
 
-.carousel-text h5 {
-  background-color: rgba(255, 255, 255, 0.4);
-  color: black;
-  margin-bottom: 0%;
+.carousel-caption {
+  padding: 5%;
+  position: absolute;
+  top: 3%;
+  left: 5%;
 }
 
-.carousel-text p {
-  background-color: rgba(255, 255, 255, 0.4);
-  color: black;
+.carousel-caption h2 {
+  color: white;
+  display: flex;
+  text-align: left;
+  padding-bottom: 5%;
+}
+
+.carousel-caption p {
+  color: white;
+  display: flex;
+  text-align: left;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+/* Water Management Slide */
+#second-slide-text h2, #second-slide-text p {
+  color: rgb(1, 1, 53) !important;
+  text-align: right;
+  position: relative;
+  right: -7%;
+}
+
+/* Energy Efficiency Slide */
+#fourth-slide-text h2,
+#fourth-slide-text p {
+  text-align: right;
+  position: relative;
+  right: -65%;
 }
 
 /* Content */
@@ -137,7 +186,7 @@ header {
 }
 
 h5 {
-  border-bottom: 0.2em black solid;
+  border-bottom: 0.2em rgb(9, 150, 39) solid;
 
 }
 
