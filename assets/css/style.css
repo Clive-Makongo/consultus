@@ -54,12 +54,13 @@ header {
 
 /* Nav Bar Styling */
 .navi {
-  display: flex !important; 
+  display: flex !important;
   justify-content: space-between !important;
   align-items: center !important;
   padding: 1%;
 
 }
+
 .nav-item {
   font-size: 1em;
   color: white;
@@ -80,7 +81,8 @@ header {
 /* Carousel */
 
 /* Buttons */
-.carousel-control-prev, .carousel-control-next {
+.carousel-control-prev,
+.carousel-control-next {
   width: 5%;
   height: 10%;
   opacity: 0.5;
@@ -100,16 +102,28 @@ header {
   margin: 1%;
 }
 
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  background: #db5800;
+  color: white;
+  opacity: 0.9;
+}
+
+/* Carousel Items */
+
+.carousel-item {}
+
 .carousel-item img {
   height: 90%;
   z-index: -11;
 }
 
+/* Carousel Text */
 .carousel-caption {
   padding: 5%;
   position: absolute;
-  top: 3%;
-  left: 5%;
+  top: 15%;
+  left: 15%;
 }
 
 .carousel-caption h2 {
@@ -128,7 +142,8 @@ header {
 }
 
 /* Water Management Slide */
-#second-slide-text h2, #second-slide-text p {
+#second-slide-text h2,
+#second-slide-text p {
   color: rgb(1, 1, 53) !important;
   text-align: right;
   position: relative;
@@ -140,7 +155,32 @@ header {
 #fourth-slide-text p {
   text-align: right;
   position: relative;
-  right: -65%;
+  right: -45%;
+}
+
+/* EU Slide */
+.fifth-slide img {
+  height: 90%;
+  width: 100%;
+  object-fit: cover;
+  z-index: -11;
+}
+
+#fifth-slide-text h2,
+#fifth-slide-text p {
+  color: rgb(0, 0, 0) !important;
+  text-align: left;
+  position: relative;
+  right: 10%;
+  top: -20%;
+  font-weight: 900;
+
+}
+
+#fifth-slide-text p {
+  padding: 2%;
+  line-height: 30px;
+  background-color: rgba(1, 10, 88, 0.08);
 }
 
 /* Content */
@@ -200,15 +240,40 @@ h5 {
 }
 
 /* ABOUT US */
+.about-us-head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 2%;
+}
+
 .about-content {
   padding: 2%;
   margin: 2%;
-  background: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+.about-content img {
+  object-fit:contain
 }
 
 .about-text {
   padding: 2%;
-  background: rgba(255, 255, 255, 0.5);
+  color: white;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.about-text h4 {
+  color: white;
+  font-size: 1.5em;
+  text-align: center;
+  border-bottom: #db5800 0.2em solid;
+}
+
+.about-text p {
+  padding-top: 1%;
 }
 
 /* CONTACT US */
