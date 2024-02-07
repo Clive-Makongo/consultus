@@ -138,7 +138,7 @@ header {
   display: flex;
   text-align: left;
   font-weight: 600;
-  line-height: 24px;
+  line-height: 18px;
 }
 
 /* Water Management Slide */
@@ -153,9 +153,10 @@ header {
 /* Energy Efficiency Slide */
 #fourth-slide-text h2,
 #fourth-slide-text p {
-  text-align: right;
+  text-align: left;
   position: relative;
-  right: -45%;
+  right: -65%;
+  width: 50%;
 }
 
 /* EU Slide */
@@ -168,19 +169,19 @@ header {
 
 #fifth-slide-text h2,
 #fifth-slide-text p {
-  color: rgb(0, 0, 0) !important;
+  color: rgb(255, 255, 255) !important;
   text-align: left;
   position: relative;
-  right: 10%;
-  top: -20%;
-  font-weight: 900;
+  right: 20%;
+  top: -10%;
+  font-weight: 600;
 
 }
 
 #fifth-slide-text p {
   padding: 2%;
   line-height: 30px;
-  background-color: rgba(1, 10, 88, 0.08);
+
 }
 
 /* Content */
@@ -240,40 +241,69 @@ h5 {
 }
 
 /* ABOUT US */
-.about-us-head {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  padding: 2%;
-}
+
 
 .about-content {
-  padding: 2%;
+  padding-bottom: 2%;
   margin: 2%;
-  background-color: rgba(255, 255, 255, 0.75);
+  background-color: rgba(255, 255, 255, 0.97);
 }
 
 .about-content img {
-  object-fit:contain
+  object-fit: contain;
+  padding: 2%;
 }
 
 .about-text {
   padding: 2%;
-  color: white;
+  color: rgb(15, 0, 97);
   font-weight: 600;
-  line-height: 20px;
+  line-height: 30px;
 }
 
 .about-text h4 {
-  color: white;
+  color: rgb(15, 0, 97);
   font-size: 1.5em;
   text-align: center;
   border-bottom: #db5800 0.2em solid;
 }
 
 .about-text p {
-  padding-top: 1%;
+  padding: 5%;
+}
+
+#first-about img {
+  padding: 3%;
+}
+
+#first-about p {
+  padding-right: 1%;
+  text-align: right;
+}
+
+#second-about p {
+  padding-left: 1%;
+  text-align: left;
+}
+
+#third-about p {
+  padding-right: 1%;
+  text-align: right;
+}
+
+#fourth-about p {
+  padding-left: 1%;
+  text-align: left;
+}
+
+#fifth-about p {
+  padding-right: 1%;
+  text-align: right;
+}
+
+#sixth-about p {
+  padding-left: 1%;
+  text-align: left;
 }
 
 /* CONTACT US */
@@ -287,7 +317,6 @@ h5 {
 #email {
   font-size: 2em;
   padding: 2%;
-  margin-left: 30%;
 }
 
 
