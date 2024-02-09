@@ -245,6 +245,7 @@ h5 {
 
 .about-content {
   padding-bottom: 2%;
+  width: 75%;
   margin: 2%;
   background-color: rgba(255, 255, 255, 0.97);
 }
@@ -278,17 +279,17 @@ h5 {
 
 #first-about p {
   padding-right: 1%;
-  text-align: right;
+  text-align: left;
 }
 
 #second-about p {
   padding-left: 1%;
-  text-align: left;
+  text-align: right;
 }
 
 #third-about p {
   padding-right: 1%;
-  text-align: right;
+  text-align: left;
 }
 
 #fourth-about p {
@@ -298,12 +299,12 @@ h5 {
 
 #fifth-about p {
   padding-right: 1%;
-  text-align: right;
+  text-align: left;
 }
 
 #sixth-about p {
   padding-left: 1%;
-  text-align: left;
+  text-align: right;
 }
 
 /* CONTACT US */
